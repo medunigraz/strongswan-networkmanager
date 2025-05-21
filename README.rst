@@ -10,7 +10,7 @@ Install the following packages:
 
 ::
 
-  sudo apt install strongswan-charon libstrongswan-extra-plugins libstrongswan-standard-plugins network-manager-strongswan
+  sudo apt install strongswan-charon libstrongswan-extra-plugins libstrongswan-standard-plugins network-manager-strongswan libcharon-extra-plugins
 
 Copy the `mug.conf` file from this repository to `/etc/strongswan.d/`:
 
