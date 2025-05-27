@@ -18,7 +18,12 @@ Copy the `mug.conf` file from this repository to `/etc/strongswan.d/`:
 
   sudo cp mug.conf /etc/strongswan.d/
 
-Now you can configure a new Strongswan connection in Network-Manager. Use the `vpn.medunigraz.at.crt` from this repository as the certificate.
+Now you can configure a new Strongswan connection in Network-Manager. Use the `vpn.medunigraz.at.crt` from this repository as the certificate:
+
+::
+
+  mkdir -p ~/.config/strongswan/
+  cp ~/Downloads/vpn.medunigraz.at.crt ~/.config/strongswan/
 
 Connection settings
 -------------------
@@ -32,7 +37,7 @@ Connection settings
    * - Gateway
      - vpn.medunigraz.at
    * - Certificate
-     - vpn.medunigraz.at.crt
+     - `~/.config/strongswan/vpn.medunigraz.at.crt`
    * - Identity
      - <empty>
    * - Method
