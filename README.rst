@@ -12,13 +12,13 @@ Install the following packages:
 
   sudo apt install strongswan-charon libstrongswan-extra-plugins libstrongswan-standard-plugins network-manager-strongswan libcharon-extra-plugins strongswan-starter- charon-systemd- 
 
-Copy the `mug.conf` file from this repository to `/etc/strongswan.d/`:
+Copy the ``mug.conf`` file from this repository to ``/etc/strongswan.d/``:
 
 ::
 
   sudo cp mug.conf /etc/strongswan.d/
 
-Now you can configure a new Strongswan connection in Network-Manager. Use the `vpn.medunigraz.at.crt` from this repository as the certificate:
+Now you can configure a new Strongswan connection in Network-Manager. Use the ``vpn.medunigraz.at.crt`` from this repository as the certificate:
 
 ::
 
