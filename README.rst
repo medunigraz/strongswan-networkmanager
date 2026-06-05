@@ -57,3 +57,17 @@ Connection settings
    * - ESP
      - aes128-sha1
 
+KDE
+---
+
+.. image:: screenshots/kde.png
+   :alt: NetworkManager settings for KDE
+
+GNOME
+-----
+
+.. image:: screenshots/ubuntu-1.png
+   :alt: NetworkManager settings for GNOME (Options)
+
+.. image:: screenshots/ubuntu-2.png
+   :alt: NetworkManager settings for GNOME (Algorithms)
